@@ -2,7 +2,8 @@
 
 /* appearance */
 static const int bottommargin = 20;
-static const char font[]            = "Bitstream Vera Sans Mono:pixelsize=11";
+static const int panelpadding = 10;
+static const char font[]            = "Bitstream Vera Sans Mono:pixelsize=10";
 static const char normbordercolor[] = "#444444";
 static const char normbgcolor[]     = "#222222";
 static const char normfgcolor[]     = "#8f8f8f";
