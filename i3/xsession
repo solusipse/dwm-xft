@@ -1,0 +1,6 @@
+fbsetbg ~/Documents/catpaper.png &
+
+xcompmgr &
+xrdb -merge ~/.Xresources &
+
+exec i3

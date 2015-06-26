@@ -27,7 +27,7 @@ font pango:DejaVu Sans Mono 8
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Shift+Return exec i3-sensible-terminal
+bindsym $mod+Shift+Return exec urxvt
 
 # kill focused window
 bindsym $mod+Shift+c kill
@@ -152,12 +152,12 @@ bar {
 
     colors {
 
-        background  #222222
-        statusline  #DDDDDD
-        separator   #666666
+        background  #000000
+        statusline  #e2c512
+        separator   #222222
 
-        focused_workspace  #222222 #00A5FF #FFFFFF
-        inactive_workspace #222222 #275577 #DDDDDD
+        focused_workspace  #e2c512 #e2c512 #000000
+        inactive_workspace #000000 #000000 #e2c512
 
     }
 
@@ -168,11 +168,11 @@ bar {
 
 
 #                           border  bg      text    indicator
-client.focused              #242424 #4c7899 #C4C8B9 #660000
-client.focused_inactive     #302627 #302627 #C4C8B9 #660000
-client.unfocused            #413738 #4B4746 #A2A697 #660000
-client.urgent               #4b4746 #00A5FF #C4C8B9 #660000
-client.placeholder          #4b4746 #302627 #C4C8B9 #660000
+client.focused              #e2c512 #e2c512 #000000 #660000
+client.focused_inactive     #000000 #000000 #e2c512 #660000
+client.unfocused            #000000 #000000 #e2c512 #660000
+client.urgent               #000000 #e2c512 #000000 #660000
+#client.placeholder          #4b4746 #302627 #C4C8B9 #660000
 
 new_window normal 0 px
 hide_edge_borders both
